@@ -1,0 +1,47 @@
+body {
+    background-image: url(img/фон\ волны.png);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 450px;
+    height: 500px;
+    margin: 250px auto 0 auto;
+    text-align: center;
+}
+
+.container img {
+    width: 261px;
+    height: 250px;
+    margin: -60px 0 30px 0;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
+
+input[type="text"], input[type="registration"] {
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 26px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 200px;
+        height: 200px;
+       }
+}
+
+@media (min-width: 1200px) {
+    .container {
+      width: 768px;
+      height: 768px;
+    }
+}
